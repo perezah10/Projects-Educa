@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="icon" href="ICON.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>¿Qué tipo de delegado eres?</h1>
+    <div class="container" id="quiz">
+        <div class="box-question">
+            <div id="speech">
+                <h2 id="question">¿Cómo te sientes hablando en público?</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="speech" value="Genial">
+                        <label for="Genial">Genial</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="speech" value="Normal">
+                        <label for="Normal">Normal</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="speech" value="Mal">
+                        <label for="Mal">Mal</label>
+                    </li>
+                </ul>
+            </div>
+            <div id="country">
+                <h2>¿A qué país prefieres representar?</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="country" value="Pontecias">
+                        <label for="Potencia">Estados Unidos/Rusia</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="country" value="Desarrollados">
+                        <label for="Desarrollados">Suiza/Finlandia/Dinamarca/Suecia...</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="country" value="Unknown">
+                        <label for="Unknown">Bangladesh/kuwait/Omán...</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="country" value="Undefined">
+                        <label for="Undefined">Me da igual</label>
+                    </li>
+                </ul>
+            </div>
+            <div id="discutir"> 
+                <h2>¿Te gusta discutir?</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="discutir" value="Positive">
+                        <label for="Positive">Sí</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="discutir"  value="Negative">
+                        <label for="Negative">No</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="discutir"  value="Undefined">
+                        <label for="Undefined">Depende</label>
+                    </li>
+                </ul>
+            </div>
+            <div id="friendship">
+                <h2>¿Eres bueno con tus relaciones sociales?</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="freindship" value="Positive">
+                        <label for="Positive">Tengo muchos amigos</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="freindship" value="Negative">
+                        <label for="Negative">Prefiero pasar más tiempo conmigo mismo</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="freindship" value="Undefined">
+                        <label for="Undefined">Normal</label>
+                    </li>
+                </ul>
+            </div>
+            <div id="protagónico">
+                <h2>¿Te encanta tener un papel protagónico?</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="protagónico" value="Positive">
+                        <label for="Positive">Sí</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="protagónico" value="Negative">
+                        <label for="Negative">No</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box-button">
+            <button class="question1" onclick="next1">Siguiente</button>
+            <button class="question2" onclick="next2">Siguiente</button>
+            <button class="question3" onclick="next3">Siguiente</button>
+            <button class="question4" onclick="next4">Siguiente</button>
+            <button class="question5" onclick="next5">Analizar</button>
+        </div>
+    </div>
+    <div id="analisis">
+        <h2>Te pareces al delegado:</h2>
+        <h3 class="Delegate"></h3>
+        <div class="description_shark format">
+            <img src="IMG/Shark/1.png" alt="shark" >
+            <p>Les encanta el protagonismo, confrontar a los otros delgados, 
+            y manipular a las masas. Estos delegados trabajan como “tiburones”, 
+            es decir van a devorar a todo compañero que se le cruce por su camino, 
+            por lo general son los que menos estudian, sin embargo sus habilidades 
+            de oratoria, negociación, influencia e intimidación los hace resaltar 
+            ante todos.</p>
+        </div>
+        <div class="description_wiki format">
+            <img src="IMG/Wiki/3.png" alt="wiki">
+            <p>Son especialistas en llevar demasiada información al comité, 
+            sus objetivos son convertirse en la enciclopedia andante. 
+            Por lo general estos delegados tienen la tendencia de no desarrollar otras skills, 
+            por lo que solamente destacan en sus conocimientos teóricos y no en su oratoria, 
+            negociación, ingenio, entre otros.</p>
+        </div>
+        <div class="description_tinder format">
+            <img src="IMG/Tinder/1.png" alt="tinder">
+            <p>Los delegados Tinder solo van a los MUN con la intención de conseguir números telefónicos, 
+            usuarios de instagram, y expandir sus redes de contactos. A ellos no les preocupa 
+            lo que suceda en el comité, solo se enfocan en sus víctimas.</p>
+        </div>
+        <div class="description_ghost format" >
+            <img src="IMG/Ghost/2.png" alt="ghost">
+            <p>Estos delegados pasan desapercibidos durante el Modelo, nadie se entera de su existencia; 
+            esto se debe a que nunca hablan, no proporcionan soluciones, no establecen su postura. 
+            Solo se hacen notar al momento de las votaciones.</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

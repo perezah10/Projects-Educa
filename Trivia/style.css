@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4682b4;
+    background-image: linear-gradient(350deg, #4682b4 0%, #f5f7f7 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Alkatra', cursive;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0px 10px 8px rgba(100, 100, 100, 0.4);
+    width: 650px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.box-question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+h2{
+    font-size: 2rem;
+}
+ul{
+    list-style: none;
+}
+input{
+    cursor: pointer;
+}
+label{
+    font-size: 1.8rem;
+    list-style: none;
+    cursor: pointer;
+}
+li:hover{
+    background-color: #cec0fc;
+}
+
+.box-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 650px;
+    padding: 12px;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+    background-color: #1e90ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #dddddd;
+    color: #000000;
+}
+
+#country{
+    display: none;
+}
+#discutir{
+    display: none;
+}
+#friendship{
+    display: none;
+}
+#protagónico{
+    display: none;
+}
+.question2{
+    display: none;
+}
+.question3{
+    display: none;
+}
+.question4{
+    display: none;
+}
+.question5{
+    display: none;
+}
+#analisis{
+    display: none;
+    padding: 10px;
+    text-align: center;
+    background-color:  rgba(255, 255, 255, 0.6);
+    font-family: 'Alkatra', cursive;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0px 10px 8px rgba(100, 100, 100, 0.4);
+    width: 650px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+h3{
+    font-size: 45px;
+}
+img{
+    width: 200px;
+    height: 260px;
+    border-radius: 5px;
+}
+.format{
+    margin: 20px;
+}
+.description_shark{
+    display: none;
+}
+.description_tinder{
+    display: none;
+}
+.description_wiki{
+    display: none;
+}
+.description_ghost{
+    display: none;
+}
